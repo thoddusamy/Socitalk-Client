@@ -1,0 +1,56 @@
+.messages {
+    display: flex;
+    flex-direction: column;
+    overflow-y: scroll;
+}
+
+.typingAnime {
+    width: 70px;
+    height: 50px;
+    align-self: flex-start;
+    /* background-color: teal; */
+}
+
+.emojiIcon {
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+    position: relative;
+}
+
+.EmojiPickerReact {
+    position: absolute !important;
+    bottom: 50px !important;
+    z-index: 100 !important;
+    background-color: teal !important;
+    width: 250px !important;
+    height: 300px !important;
+    border: none !important;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px !important;
+}
+
+.EmojiPickerReact .epr-header {
+    height: 75px !important;
+}
+
+.EmojiPickerReact .epr-header input {
+    height: 25px !important;
+}
+
+.EmojiPickerReact .epr-header .epr-header-overlay,
+.EmojiPickerReact .epr-category-nav {
+    padding: 10px 10px 0 10px !important;
+}
+
+.EmojiPickerReact .epr-category-nav {
+    color: #fff !important;
+}
+
+.EmojiPickerReact .epr-emoji-category-label {
+    background-color: teal !important;
+    color: #fff !important;
+}
+
+.EmojiPickerReact .epr-preview {
+    display: none !important;
+}

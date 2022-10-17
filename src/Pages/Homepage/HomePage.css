@@ -1,0 +1,169 @@
+.login__container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 1000px;
+    height: 600px;
+    background-color: #fff;
+    border-radius: 20px;
+    color: black;
+    overflow: hidden;
+}
+
+.login__container .grid__Container {
+    display: grid;
+    grid-template-columns: 38% 62%;
+    min-height: 600px;
+    width: 100%;
+}
+
+.grid__Container .left {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: teal;
+}
+
+.grid__Container .left .anime {
+    width: 350px;
+    margin-left: 20px;
+}
+
+.grid__Container .left>div p:nth-child(1) {
+    text-align: center;
+    font-size: 25px;
+    padding-bottom: 10px;
+    color: #fff;
+}
+
+.grid__Container .left>div p:nth-child(2) {
+    font-size: 60px;
+    padding-bottom: 20px;
+    font-family: 'Nabla', cursive;
+}
+
+.grid__Container .right {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    margin-top: 50px;
+}
+
+.grid__Container .right .brand_name {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Nabla', cursive;
+    display: none;
+}
+
+.grid__Container .right .btns_div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.grid__Container .right .btns_div .chakra-tabs__tablist {
+    border: 2px solid teal;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    padding: 2px;
+}
+
+.grid__Container .right .btns_div button {
+    background-color: transparent;
+    padding: 10px 60px;
+    border-radius: 30px;
+    color: #fff;
+    font-weight: bold;
+    letter-spacing: 1px;
+    color: black;
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+
+    .grid__Container .right .brand_name {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-family: 'Nabla', cursive;
+        display: block;
+        background-color: teal;
+        padding: 5px 20px;
+        margin: 20px 0 25px 0;
+        width: 100%
+    }
+
+    .grid__Container .right .brand_name p {
+        text-align: center;
+        font-size: 35px;
+    }
+
+    .login__container {
+        width: auto;
+        height: auto;
+    }
+
+    .login__container .grid__Container {
+        display: grid;
+        grid-template-columns: auto;
+        height: auto;
+        width: 100%;
+    }
+
+    .grid__Container .left {
+        display: none;
+    }
+
+    .grid__Container .right {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        width: 100%;
+        margin-top: 0;
+    }
+
+    .grid__Container .right .btns_div .chakra-tabs {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .grid__Container .right .btns_div .chakra-tabs__tablist {
+        display: flex !important;
+        align-items: center !important;
+        justify-content: center !important;
+        width: 80%;
+        border: 2px solid teal;
+        gap: 30px;
+        padding: 2px;
+        margin: 0 30px;
+    }
+
+    .grid__Container .right .btns_div button {
+        width: auto;
+        background-color: transparent;
+        padding: 10px 20px;
+        border-radius: 30px;
+        color: #fff;
+        font-weight: bold;
+        letter-spacing: 1px;
+        color: black;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+    .grid__Container .left .anime {
+        width: 300px;
+        margin-right: 10px;
+    }
+
+    .grid__Container .left>div p:nth-child(2) {
+        font-size: 50px;
+    }
+}
