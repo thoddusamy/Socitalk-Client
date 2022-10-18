@@ -106,7 +106,7 @@
 
     .login__container {
         width: 100vw;
-        height: 95vh;
+        height: auto;
     }
 
     .login__container .grid__Container {

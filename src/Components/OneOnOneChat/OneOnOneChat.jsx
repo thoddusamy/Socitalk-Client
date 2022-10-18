@@ -203,7 +203,7 @@ const OneOnOneChat = () => {
                             p={3}
                             bg="#ffffffc1"
                             w={"100%"}
-                            h="100%"
+                            h="78vh"
                             borderRadius={"5px"}
                             overflowY="hidden"
                             mt={2}
