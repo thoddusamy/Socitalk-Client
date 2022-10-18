@@ -49,11 +49,19 @@
     outline: none;
 }
 
+.login .input_boxs div label {
+    align-self: flex-start;
+}
+
 ::placeholder {
     margin-left: 20px;
 }
 
 .login .input_boxs .pass {
+    position: relative;
+}
+
+.login .input_boxs .pass #input_wrapper {
     position: relative;
 }
 
@@ -118,7 +126,18 @@
 
     .login .input_boxs div:nth-child(2) svg {
         position: absolute;
-        right: 40px;
+        right: 20px;
         top: 36px;
     }
+
+    .login .input_boxs .email,
+    .login .input_boxs .pass {
+        width: 85%;
+    }
+
+    .login .input_boxs .email input,
+    .login .input_boxs .pass input {
+        width: 100%;
+    }
+
 }

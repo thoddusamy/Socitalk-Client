@@ -203,7 +203,7 @@ const OneOnOneChat = () => {
                             p={3}
                             bg="#ffffffc1"
                             w={"100%"}
-                            h="545px"
+                            h="100%"
                             borderRadius={"5px"}
                             overflowY="hidden"
                             mt={2}
@@ -247,7 +247,6 @@ const OneOnOneChat = () => {
                                 display="flex"
                                 justifyContent="center"
                                 alignItems="center"
-                                h="100%"
                             >
                                 <Lottie className='anime' animationData={ChatLottie} loop={true} />
                             </Box>

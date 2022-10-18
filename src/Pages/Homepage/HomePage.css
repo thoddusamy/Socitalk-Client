@@ -95,7 +95,7 @@
         display: block;
         background-color: teal;
         padding: 5px 20px;
-        margin: 20px 0 25px 0;
+        margin: 20px 0 35px 0;
         width: 100%
     }
 
@@ -105,8 +105,8 @@
     }
 
     .login__container {
-        width: auto;
-        height: auto;
+        width: 100vw;
+        height: 95vh;
     }
 
     .login__container .grid__Container {
@@ -132,21 +132,22 @@
         display: flex;
         flex-direction: column;
         align-items: center;
+        width: 90vw;
     }
 
     .grid__Container .right .btns_div .chakra-tabs__tablist {
         display: flex !important;
         align-items: center !important;
         justify-content: center !important;
-        width: 80%;
+        width: 80vw;
         border: 2px solid teal;
         gap: 30px;
         padding: 2px;
         margin: 0 30px;
     }
 
-    .grid__Container .right .btns_div button {
-        width: auto;
+    .grid__Container .right .btns_div .chakra-tabs__tab {
+        width: 80vw;
         background-color: transparent;
         padding: 10px 20px;
         border-radius: 30px;

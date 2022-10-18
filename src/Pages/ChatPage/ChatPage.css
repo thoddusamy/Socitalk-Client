@@ -1,4 +1,7 @@
 .chat_container {
+    display: grid;
+    grid-template-rows: 10% 87%;
+    gap: 1.5%;
     color: #fff;
     min-height: 100vh;
     min-width: 100vw;
@@ -8,4 +11,5 @@
     display: flex;
     align-items: center;
     justify-content: flex-start;
+    height: 100%;
 }

@@ -48,7 +48,7 @@ const ContactBox = () => {
             m={3}
             bg="teal"
             color="white"
-            minHeight="624px"
+            h={"100%"}
             w={{ base: "100%", md: "30%" }}
             borderRadius="5px"
         >
@@ -72,7 +72,7 @@ const ContactBox = () => {
                 mt={2}
                 bg="#ffffffc1"
                 w="100%"
-                h="545px"
+                h={"100%"}
                 borderRadius="5px"
                 overflowY="hidden"
             >

@@ -1,6 +1,5 @@
 import React, { useContext } from 'react'
 import { ChatContextApi } from '../../Context/ChatProvider'
-import './ChatBox.css'
 import { Box } from '@chakra-ui/react'
 import OneOnOneChat from '../OneOnOneChat/OneOnOneChat'
 
@@ -16,7 +15,7 @@ const ChatBox = () => {
             p={3}
             bg="teal"
             m={3}
-            minHeight="624px"
+            h="100%"
             w={{ base: "100%", md: "70%" }}
             borderRadius="5px"
         >

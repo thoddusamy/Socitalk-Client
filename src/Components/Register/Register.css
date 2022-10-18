@@ -21,6 +21,7 @@
 .register .pass label,
 .register .con_pass label,
 .register .upload_pic label {
+    align-self: flex-start;
     margin-left: 10px;
 }
 
@@ -82,7 +83,7 @@
     .register .con_pass,
     .register .upload_pic {
         align-items: center;
-        width: 266.6px;
+        width: 75vw;
     }
 
     .register .name input,
@@ -90,18 +91,18 @@
     .register .pass input,
     .register .con_pass input,
     .register .upload_pic input {
-        width: 80%;
+        width: 100%;
     }
 
     .register .res_btn {
-        width: 80%;
+        width: 90%;
         padding: 10px 0;
     }
 
     .register .pass svg,
     .register .con_pass svg {
         position: absolute;
-        right: 40px;
+        right: 20px;
         top: 36px;
     }
 }
