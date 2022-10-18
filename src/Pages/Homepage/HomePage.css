@@ -27,7 +27,8 @@
 
 .grid__Container .left .anime {
     width: 350px;
-    margin-left: 20px;
+    height: 300px;
+    margin: 0 0 0 20px;
 }
 
 .grid__Container .left>div p:nth-child(1) {
