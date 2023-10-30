@@ -1,3 +1,3 @@
 export const config = {
-    api: "https://soci-talk.herokuapp.com"
+    api: "https://socitalk.onrender.com"
 }
